@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=GeForce Now
+Name=Xbox cloud gaming
 Type=Application
-Exec=/opt/geforcenow-electron/geforcenow
-Icon=nvidia
-StartupWMClass=geforce now
+Exec=/opt/xbox-cloud-gaming-electron/xbox
+Icon=xbox
+StartupWMClass=xbox
 Categories=Game;
-Keywords=Game;Nvidia;GeForce;
+Keywords=Game;Microsoft;Xbox;
