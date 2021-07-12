@@ -40,6 +40,7 @@ app.whenReady().then(() => {
 app.on('browser-window-created', function(e, window) {
   window.setBackgroundColor('#1A1D1F');
   window.setMenu(null);
+  window.setFullScreen(true);
 
   window.on('leave-full-screen', function(e, win) {
     if (isFullScreen) {
@@ -48,7 +49,7 @@ app.on('browser-window-created', function(e, window) {
   });
 
   window.on('page-title-updated', function(e, title) {
-    if (title.includes('on Xbox Cloud Gaming')) {
+    if (title.includes('Xbox Cloud Gaming')) {
       window.setFullScreen(true);
       isFullScreen = true;
     } else {
