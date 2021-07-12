@@ -13,7 +13,7 @@ function createWindow () {
     }
   });
   mainWindow.webContents.userAgent = "Mozilla/5.0 (X11; CrOS x86_64 13816.55.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.86 Safari/537.36";
-  mainWindow.loadURL('https://www.xbox.com/en-US/play');
+  mainWindow.loadURL('https://stadia.google.com');
 }
 
 app.whenReady().then(() => {
@@ -49,7 +49,7 @@ app.on('browser-window-created', function(e, window) {
   });
 
   window.on('page-title-updated', function(e, title) {
-    if (title.includes('Xbox Cloud Gaming')) {
+    if (title.includes('Stadia')) {
       window.setFullScreen(true);
       isFullScreen = true;
     } else {

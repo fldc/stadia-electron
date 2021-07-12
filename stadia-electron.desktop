@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Xbox cloud gaming
+Name=Stadia
 Type=Application
-Exec=/opt/xbox-cloud-gaming-electron/xbox
+Exec=/opt/stadia-electron/stadia
 Icon=xbox
 StartupWMClass=xbox
 Categories=Game;
-Keywords=Game;Microsoft;Xbox;
+Keywords=Game;Google;Stadia;
